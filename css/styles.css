@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  max-width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: grey;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  width: 100%;
+}
+
+.widget-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.image-container {
+  background-color: #f2f2f2;
+}
+
+.image-container img {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h2 {
+  margin-left: 40px;
+  padding-top: 30px;
+}
+
+form {
+  background-color: #f2f2f2;
+  width: 100%;
+  padding-top: 20px;
+}
+
+label {
+  margin: 40px;
+}
+
+input[type="text"],
+[type="date"],
+textarea {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 40px;
+}
+
+.comments-container {
+  background-color: white;
+  width: 100%;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+}
+
+button {
+  width: 100px;
+  padding: 5px;
+  margin-left: 40px;
+  margin-top: 10px;
+  background-color: #10569b;
+  color: white;
+}
+
+#lsOutput {
+  /* padding-top: 10px;
+    margin-left: 40px;
+    padding-bottom: 40px; */
+}
+
+.leftPanelImg img {
+  width: 35px;
+  margin-left: 40px;
+}
+
+.rightPanelText {
+  /* padding-top: 10px; */
+  margin-left: 10px;
+  /* padding-bottom: 10px; */
+}
+
+.single-comment {
+  display: block;
+}
+
+.comment-box {
+  /* display:inline-flex; */
+  margin-top: 20px;
+}
+
+#lsOutput img {
+  width: 20px;
+}
