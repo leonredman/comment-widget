@@ -1,70 +1,72 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 
-<title>Comment Widget</title>
+    <title>Comment Widget</title>
 </head>
+
 <body>
 
     <div class="container">
         <div class="widget-container">
 
-        <h1>Comment Widget w/local storage</h1>
+            <h1>Comment Widget w/local storage</h1>
 
             <div class="image-container">
                 <img src="images/image1.jpg">
             </div>
 
-                <form>
-                    <label for="inpKey">Name:</label><br>
-                    <input id="inpKey" type="text" placeholder="Enter Name..."><br>
-                    <!-- <label for="inpValue">Date:</label><br>
+            <form>
+                <label for="inpKey">Name:</label><br>
+                <input id="inpKey" type="text" placeholder="Enter Name..."><br>
+                <!-- <label for="inpValue">Date:</label><br>
                     <input id="inpValue" type="date" placeholder="Enter Comment..."><br> -->
-                    <label for="inpValue">Comment:</label><br>
-                    <input id="inpValue" type="text" placeholder="Enter Comment..."><br> 
+                <label for="inpValue">Comment:</label><br>
+                <input id="inpValue" type="text" placeholder="Enter Comment..."><br>
 
-                    <!-- <label for="textarea">COMMENT:</label><br>
+                <!-- <label for="textarea">COMMENT:</label><br>
                     <textarea rows="5" col="30" id="bodyText">Placeholder Text</textarea><br><br> -->
-                    <button type="button" id="btnInsert">Submit</button>
-                </form>
+                <button type="button" id="btnInsert">Submit</button>
+            </form>
 
             <div class="comments-container">
                 <h2>Comments</h2>
 
-                 <!-- build prototype layout with html... now after we 
+                <!-- build prototype layout with html... now after we 
                     we will update this container dynamically with javascript -->
-                
-                    <div id="container">
-                      <div class="single-comment">
+
+                <div id="container">
+                    <div class="single-comment">
                         <div class="comment-box" id="lsOutput">
                             <!-- <div class="leftPanelImg">
                                 <img src="images/avatar-placeholder.png">
                             </div> -->
-                            
+
                             <!-- <div class="rightPanelText"> -->
-                                <!-- <i class="fa fa-heart-o like"></i> -->
-                                <!-- <i class="fa fa-trash delete"></i> -->
-                                <!-- <p>This is a test message</p> -->
-                            </div>
+                            <!-- <i class="fa fa-heart-o like"></i> -->
+                            <!-- <i class="fa fa-trash delete"></i> -->
+                            <!-- <p>This is a test message</p> -->
                         </div>
                     </div>
                 </div>
+            </div>
 
             <!-- remember to update html with JS it must be all on one line -->
 
-                <!-- <div class="container"><div class="single-comment"><div class="comment-box"><div class="leftPanelImg"><img src="images/avatar-placeholder.png"></div><div class="rightPanelText" id="lsOutputt"><p>This is a test message</p></div></div></div></div> -->
+            <!-- <div class="container"><div class="single-comment"><div class="comment-box"><div class="leftPanelImg"><img src="images/avatar-placeholder.png"></div><div class="rightPanelText" id="lsOutputt"><p>This is a test message</p></div></div></div></div> -->
 
         </div>
     </div>
- </div>
-</div>
+    </div>
+    </div>
 
 
 
-<!-- Developer a comment widget
+    <!-- Developer a comment widget
 Design and Develop a comment system
 create a comment box
 create a comment button - when you press the button the comments go down
@@ -88,8 +90,9 @@ add like button
 
 make it live with a database or local storage -->
 
-<script src="main.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
 
 <!-- lsOutput.innerHTML += '<img src="images/avatar-placeholder.png">' `${key}: ${value}<br />`; -->
